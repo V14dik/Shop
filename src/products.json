@@ -1,0 +1,20 @@
+{
+    "0":{
+        "name": "Keyboard",
+        "price": "20",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+        "image": "https://static.insales-cdn.com/images/products/1/4067/592842723/Vortex_Tab_60.jpg"
+    },
+    "1":{
+        "name": "Mouse",
+        "price": "10",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+        "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/PCA20_MicrosoftModernMobileMouse_Feature_PastelBlue_TopDown_RGB_740x417?wid=380&hei=213&fit=crop"
+    },
+    "2":{
+        "name": "Laptop",
+        "price": "800",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+        "image": "https://content2.onliner.by/catalog/device/main/dced3c38dbb7067687bb1f766396eeb0.jpeg"
+    }
+}
