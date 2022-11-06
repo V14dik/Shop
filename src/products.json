@@ -16,5 +16,29 @@
         "price": "800",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
         "image": "https://content2.onliner.by/catalog/device/main/dced3c38dbb7067687bb1f766396eeb0.jpeg"
+    },
+    "3":{
+        "name": "Laptop",
+        "price": "800",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+        "image": "https://content2.onliner.by/catalog/device/main/dced3c38dbb7067687bb1f766396eeb0.jpeg"
+    },
+    "4":{
+        "name": "Laptop",
+        "price": "800",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+        "image": "https://content2.onliner.by/catalog/device/main/dced3c38dbb7067687bb1f766396eeb0.jpeg"
+    },
+    "5":{
+        "name": "Laptop",
+        "price": "800",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+        "image": "https://content2.onliner.by/catalog/device/main/dced3c38dbb7067687bb1f766396eeb0.jpeg"
+    },
+    "6":{
+        "name": "Laptop",
+        "price": "800",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+        "image": "https://content2.onliner.by/catalog/device/main/dced3c38dbb7067687bb1f766396eeb0.jpeg"
     }
 }
