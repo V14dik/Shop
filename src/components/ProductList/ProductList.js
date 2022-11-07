@@ -11,6 +11,7 @@ export function ProductList() {
           <Product
             key={products[index].name + index}
             product={products[index]}
+            index={index}
           />
         );
       })}
