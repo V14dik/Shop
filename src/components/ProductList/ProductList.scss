@@ -1,7 +1,8 @@
 .products{
-    width: 100%;
+    width: 75%;
     height: 100%;
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+    overflow: auto;
 }
