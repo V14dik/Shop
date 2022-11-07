@@ -1,13 +1,13 @@
 {
     "0":{
         "name": "Keyboard",
-        "price": "20",
+        "price": "220",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
         "image": "https://static.insales-cdn.com/images/products/1/4067/592842723/Vortex_Tab_60.jpg"
     },
     "1":{
         "name": "Mouse",
-        "price": "10",
+        "price": "100",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
         "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/PCA20_MicrosoftModernMobileMouse_Feature_PastelBlue_TopDown_RGB_740x417?wid=380&hei=213&fit=crop"
     },
@@ -18,26 +18,26 @@
         "image": "https://content2.onliner.by/catalog/device/main/dced3c38dbb7067687bb1f766396eeb0.jpeg"
     },
     "3":{
-        "name": "Laptop",
-        "price": "800",
+        "name": "Mouse 2",
+        "price": "150",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        "image": "https://content2.onliner.by/catalog/device/main/dced3c38dbb7067687bb1f766396eeb0.jpeg"
+        "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/PCA20_MicrosoftModernMobileMouse_Feature_PastelBlue_TopDown_RGB_740x417?wid=380&hei=213&fit=crop"
     },
     "4":{
-        "name": "Laptop",
-        "price": "800",
+        "name": "Laptop 2",
+        "price": "850",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
         "image": "https://content2.onliner.by/catalog/device/main/dced3c38dbb7067687bb1f766396eeb0.jpeg"
     },
     "5":{
-        "name": "Laptop",
-        "price": "800",
+        "name": "Keyboard 2",
+        "price": "200",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-        "image": "https://content2.onliner.by/catalog/device/main/dced3c38dbb7067687bb1f766396eeb0.jpeg"
+        "image": "https://static.insales-cdn.com/images/products/1/4067/592842723/Vortex_Tab_60.jpg"
     },
     "6":{
-        "name": "Laptop",
-        "price": "800",
+        "name": "Laptop 3",
+        "price": "900",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
         "image": "https://content2.onliner.by/catalog/device/main/dced3c38dbb7067687bb1f766396eeb0.jpeg"
     }

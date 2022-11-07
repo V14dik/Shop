@@ -3,8 +3,8 @@ import { store } from "../../..";
 
 export function addToCart(index) {
   const items = { ...store.getState().cart.items };
-  if (index in Object.keys(items)) {
-    items[index] = +items[index] + 1;
+  if (items[index]) {
+    items[index]++;
   } else {
     items[index] = 1;
   }
