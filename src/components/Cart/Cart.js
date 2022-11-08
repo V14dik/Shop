@@ -1,10 +1,18 @@
 import "./Cart.scss";
 import { CartItem } from "./CartItem/CartItem";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { changeTotalPrice } from "../../redux/store/actions/cart";
 
 export function Cart() {
-  const { items } = useSelector(({ cart }) => cart);
+  const dispatch = useDispatch();
+  const { items, totalPrice } = useSelector(({ cart }) => cart);
   const { products } = useSelector(({ product }) => product);
+
+  useEffect(() => {
+    dispatch(changeTotalPrice());
+  }, [items, dispatch]);
+
   return (
     <div className="cart">
       <div className="cart-header">Cart</div>
@@ -21,6 +29,8 @@ export function Cart() {
           );
         })}
       </ul>
+      <div className="total-price">Total: {totalPrice}$</div>
+      <button className="checkout">Checkout</button>
     </div>
   );
 }

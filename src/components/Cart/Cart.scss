@@ -3,9 +3,13 @@
 .cart {
     width: 25%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: $background;
     border: 2px solid $border;
     border-radius: 10px;
+    gap: 10px;
+
 
     .cart-header{
         background-color: $dark-background;
@@ -22,5 +26,29 @@
     .cart-items {
         list-style-type: none;
         padding: 0;
+        flex-grow: 1;
+        overflow: auto;
+    }
+
+    .cart-items:first-child:first-child{
+        border-top: 2px solid $border;
+    }
+
+    .total-price {
+        font-size: 1.3rem;
+    }
+
+    .checkout {
+        width: 100%;
+        border: 2px solid $border;
+        border-radius: 7px;
+        background-color: $dark-background;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+
+    .checkout:hover{
+        color: #fff;
+        background-color: $border;
     }
 }
