@@ -1,4 +1,4 @@
-import { ADD_ITEM_TO_CART } from "./actionTypes";
+import { ADD_ITEM_TO_CART, DELETE_FROM_CART } from "./actionTypes";
 import { store } from "../../..";
 
 export function addToCart(index) {
@@ -10,6 +10,17 @@ export function addToCart(index) {
   }
   return {
     type: ADD_ITEM_TO_CART,
+    payload: {
+      items: items,
+    },
+  };
+}
+
+export function deleteFromCart(index) {
+  const items = { ...store.getState().cart.items };
+  delete items[index];
+  return {
+    type: DELETE_FROM_CART,
     payload: {
       items: items,
     },

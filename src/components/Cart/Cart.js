@@ -12,7 +12,11 @@ export function Cart() {
         {Object.keys(items).map((index) => {
           return (
             <li key={products[index].name + index}>
-              <CartItem product={products[index]} amount={items[index]} />
+              <CartItem
+                product={products[index]}
+                amount={items[index]}
+                index={index}
+              />
             </li>
           );
         })}
