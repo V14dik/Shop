@@ -1,3 +1,4 @@
 export const ADD_ITEM_TO_CART = "ADD_ITEM_TO_CART";
 export const DELETE_FROM_CART = "DELETE_FROM_CART";
 export const CHANGE_TOTAL_PRICE = "CHANGE_TOTAL_PRICE";
+export const CLEAN_CART = "CLEAN_CART";

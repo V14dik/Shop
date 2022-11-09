@@ -19,7 +19,7 @@ export function Product(props) {
             onClick={onBuyHandler.bind(this, props.index)}
             className="buy-btn"
           >
-            Buy
+            Add
           </button>
         </div>
       </div>

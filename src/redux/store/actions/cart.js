@@ -1,6 +1,7 @@
 import {
   ADD_ITEM_TO_CART,
   CHANGE_TOTAL_PRICE,
+  CLEAN_CART,
   DELETE_FROM_CART,
 } from "./actionTypes";
 import { store } from "../../..";
@@ -42,6 +43,16 @@ export function changeTotalPrice() {
     type: CHANGE_TOTAL_PRICE,
     payload: {
       totalPrice: newPrice,
+    },
+  };
+}
+
+export function cleanCart() {
+  return {
+    type: CLEAN_CART,
+    payload: {
+      totalPrice: 0,
+      items: {},
     },
   };
 }

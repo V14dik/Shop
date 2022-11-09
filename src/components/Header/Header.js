@@ -9,7 +9,7 @@ export function Header() {
         alt="logo"
         className="logo"
       />
-      <div className="shop-name">Shop Name</div>
+      <div className="shop-name">My Shop</div>
     </header>
   );
 }
