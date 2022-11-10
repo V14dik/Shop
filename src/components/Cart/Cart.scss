@@ -52,3 +52,10 @@
         background-color: $border;
     }
 }
+
+@media (max-width: 575px) {
+    .cart{
+        width: 100%;
+        height: 45%;
+    }
+}

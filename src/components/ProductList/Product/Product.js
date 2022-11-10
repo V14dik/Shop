@@ -1,24 +1,26 @@
-import "./Product.scss";
-import { addToCart } from "../../../redux/store/actions/cart";
 import { useDispatch } from "react-redux";
 
-export function Product(props) {
+import { addToCart } from "../../../redux/store/cart/actions";
+import "./Product.scss";
+
+export function Product({ product, index }) {
+  const { image, name, description, price } = product;
+
   const dispatch = useDispatch();
-  const onBuyHandler = (index) => {
+
+  const addHandler = () => {
     dispatch(addToCart(index));
   };
+
   return (
     <div className="product">
-      <img className="product-img" src={props.product.image} alt="Product" />
+      <img className="product-img" src={image} alt="Product" />
       <div className="about-product">
-        <div className="product-name">{props.product.name}</div>
-        <span>{props.product.description}</span>
+        <div className="product-name">{name}</div>
+        <span>{description}</span>
         <div className="buy-container">
-          <div className="product-price">{props.product.price}$</div>
-          <button
-            onClick={onBuyHandler.bind(this, props.index)}
-            className="buy-btn"
-          >
+          <div className="product-price">{price}$</div>
+          <button onClick={addHandler} className="buy-btn">
             Add
           </button>
         </div>

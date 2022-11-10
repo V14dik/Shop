@@ -1,20 +1,28 @@
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+
 import { Product } from "./Product/Product";
-import { store } from "../..";
+import { getProducts } from "../../redux/store/product/actions";
 import "./ProductList.scss";
 
 export function ProductList() {
-  const products = store.getState().product.products;
+  const { products } = useSelector(({ product }) => product);
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getProducts());
+  }, [dispatch]);
+
   return (
     <div className="products">
-      {Object.keys(products).map((index) => {
-        return (
-          <Product
-            key={products[index].name + index}
-            product={products[index]}
-            index={index}
-          />
-        );
-      })}
+      {Object.keys(products).map((index) => (
+        <Product
+          key={products[index].name + index}
+          product={products[index]}
+          index={index}
+        />
+      ))}
     </div>
   );
 }
